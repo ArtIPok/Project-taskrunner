@@ -1,0 +1,133 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-size: 18px;
+  line-height: 36px;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 75px;
+  padding: 120px 0 0 0;
+}
+
+.about {
+  font-family: "Petrona", serif;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  color: #777777;
+  margin-top: -12px;
+}
+
+/* Navigation */
+.navigation {
+  position: relative;
+  background-image: url("https://i.postimg.cc/XvX1vwTh/pexels-mateusz-dach-450035.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 2000px;
+  height: 1068px;
+}
+
+.navigation h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Petrona", serif;
+  font-size: 40px;
+  padding-top: 100px;
+  margin-top: 200px;
+  transform: translateY(20%);
+}
+
+.navigation h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  padding: 20px;
+  transform: translateY(20%);
+}
+
+.brand {
+  font-family: "Meddon", cursive;
+  color: #fed136;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.navi {
+  color: #FFF;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.menu {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 600px;
+}
+
+.dropdown {
+  display: inline-block;
+  padding: 20px;
+}
+
+.dropdown a {
+  color: #FFF;
+}
+
+.btn-first {
+  display: inline-block;
+  padding: 25px 50px;
+  background-color: #fed136;
+  color: #FFF;
+  border-radius: 6px;
+  text-align: center;
+  margin: 60px 870px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+/* Services */
+.wrap {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column {
+  -ms-flex: 0 0 33.3333%;
+      flex: 0 0 33.3333%;
+}
+
+/* Portfolio */
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
