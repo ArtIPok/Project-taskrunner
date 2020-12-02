@@ -45,7 +45,7 @@
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  width: 2000px;
+  width: 1930px;
   height: 1068px;
 }
 
@@ -101,12 +101,14 @@
 
 .btn-first {
   display: inline-block;
-  padding: 25px 50px;
+  padding: 25px;
+  height: 80px;
+  width: 300px;
   background-color: #fed136;
   color: #FFF;
   border-radius: 6px;
   text-align: center;
-  margin: 60px 870px;
+  margin: 60px 820px;
   font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -122,7 +124,7 @@
 
 .column {
   -ms-flex: 0 0 33.3333%;
-      flex: 0 0 33.3333%;
+  flex: 0 0 33.3333%;
 }
 
 .column p {
@@ -156,11 +158,67 @@
 .as {
   background-color: #f7f7f7;
   margin-top: 48px;
+  width: 1930px;
+  height: 1218px;
+}
+
+.card {
+  border-style: none;
 }
 
 .card img {
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-body p {
+  color: #737373;
+  font-family: "Droid Serif";
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Footer */
+.social-links {
+  list-style-type: none;
+  text-align: center;
+  padding: 12px;
+}
+
+.social-links li {
+  display: inline-block;
+  font-size: 0;
+  transition: all 1s;
+  padding: 12px 24px;
+  margin: 0 auto;
+}
+
+.social-links li i {
+  font-size: 30px;
+  color: #000;
+  background-color: #FFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.social-links li:hover {
+  transform: scale(1.2);
+}
+
+.sign {
+  padding: 32px;
 }
 /*# sourceMappingURL=style.css.map */
